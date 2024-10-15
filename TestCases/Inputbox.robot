@@ -1,15 +1,27 @@
 *** Settings ***
 Library  SeleniumLibrary
-Library  SeleniumLibrary
 
 *** Variables ***
 ${browser}  chrome
 ${url}  https://dbms-unit10.firebaseapp.com/
 
 *** Test Cases ***
-LoginTest
+TestingInputBox
     open browser    ${url}   ${browser}
-    loginToApplication
+    maximize browser window
+    sleep   1
+    title should be     LMS SYSTEM
+    click link  xpath://a[normalize-space()='Log in']
+    sleep   1
+    ${"email"}  set variable    id:email
+
+    element should be visible   ${"email"}
+    element should be enabled   ${"email"}
+
+    input text   ${"email"}    JohnDavid@gmail.com
+    sleep   2
+    clear element text  ${"email"}
+    sleep   2
     close browser
 
 *** Keywords ***

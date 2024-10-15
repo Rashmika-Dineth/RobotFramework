@@ -1,18 +1,20 @@
 *** Settings ***
 Library  SeleniumLibrary
-Library  SeleniumLibrary
 
 *** Variables ***
 ${browser}  chrome
-${url}  https://dbms-unit10.firebaseapp.com/
+${url}  http://demo.nopcommerce.com/
 
 *** Test Cases ***
-LoginTest
+TestingInputBox
     open browser    ${url}   ${browser}
-    loginToApplication
+    maximize browser window
+    sleep   10
     close browser
 
+
 *** Keywords ***
+
 loginToApplication
     click link  xpath://a[normalize-space()='Log in']
     input text  id:email    abc123@gmail.com
