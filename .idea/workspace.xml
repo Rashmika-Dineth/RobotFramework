@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9570276e-3c2f-4756-92db-fc0605a610cd" name="Changes" comment="Robot Framework">
-      <change afterPath="$PROJECT_DIR$/TestCases/Inputbox.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/TC2.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9570276e-3c2f-4756-92db-fc0605a610cd" name="Changes" comment="Run Text update">
+      <change afterPath="$PROJECT_DIR$/TestCases/SelectRadio.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestCases/TC1.robot" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/TC1.robot" afterDir="false" />
     </list>
@@ -73,7 +71,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728912084217</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Run Text update">
+      <option name="closed" value="true" />
+      <created>1728981146522</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728981146522</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -81,6 +87,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Robot Framework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Robot Framework" />
+    <MESSAGE value="Run Text update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Run Text update" />
   </component>
 </project>
