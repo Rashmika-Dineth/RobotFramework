@@ -23,6 +23,6 @@ Testing Option dropdown
     sleep    1
 
     execute javascript    window.scrollTo(0,-document.body.scrollHeight)
-    sleep    1
+    sleep    2
 
     close all browsers
