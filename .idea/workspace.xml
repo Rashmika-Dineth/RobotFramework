@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9570276e-3c2f-4756-92db-fc0605a610cd" name="Changes" comment="Selenium functions 1">
-      <change afterPath="$PROJECT_DIR$/TestCases/ExtractLinks.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/ForLoop.robot" afterDir="false" />
+    <list default="true" id="9570276e-3c2f-4756-92db-fc0605a610cd" name="Changes" comment="Loops">
+      <change afterPath="$PROJECT_DIR$/Resources/init.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCases/DDT.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCases/Tables.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729075701378</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Loops">
+      <option name="closed" value="true" />
+      <created>1729237659620</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729237659620</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -136,6 +145,7 @@
     <MESSAGE value="Selenium timeouts" />
     <MESSAGE value="Selenium functions" />
     <MESSAGE value="Selenium functions 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selenium functions 1" />
+    <MESSAGE value="Loops" />
+    <option name="LAST_COMMIT_MESSAGE" value="Loops" />
   </component>
 </project>
