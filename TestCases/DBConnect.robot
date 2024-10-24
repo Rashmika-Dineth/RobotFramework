@@ -8,7 +8,7 @@ Suite Teardown    Disconnect From Database
 *** Variables ***
 ${DBName}   mydb
 ${DBUser}   root
-${DBPass}   root
+${DBPass}
 ${DBHost}   localhost
 ${DBPort}   3306
 

@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9570276e-3c2f-4756-92db-fc0605a610cd" name="Changes" comment="Loops 2">
-      <change afterPath="$PROJECT_DIR$/TestCases/DBConnect.robot" afterDir="false" />
+    <list default="true" id="9570276e-3c2f-4756-92db-fc0605a610cd" name="Changes" comment="DDT">
+      <change afterPath="$PROJECT_DIR$/TestCases/DBSetup.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestData/TestData.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/DBConnect.robot" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/DBConnect.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/MouseOPerations.robot" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/MouseOPerations.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729250588218</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="DDT">
+      <option name="closed" value="true" />
+      <created>1729577956905</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1729577956905</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -153,6 +164,7 @@
     <MESSAGE value="Selenium functions 1" />
     <MESSAGE value="Loops" />
     <MESSAGE value="Loops 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Loops 2" />
+    <MESSAGE value="DDT" />
+    <option name="LAST_COMMIT_MESSAGE" value="DDT" />
   </component>
 </project>

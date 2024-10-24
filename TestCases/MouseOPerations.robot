@@ -12,7 +12,7 @@ ${url2}  https://www.bing.com/
 Testing Option dropdown
     open browser    ${url}   ${browser}
     maximize browser window
-
+    sleep    5
     #Right Click
     open context menu    xpath://giwefgiwegfo
     sleep    2
